@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phiếu khám bệnh"
+                android:textAlignment="center"
+                android:background="#FFFFFF"
+                android:textColor="#f55"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="18pt"
+                android:minHeight="48dp"/>
+
+            <ImageView
+                android:id="@+id/imgAvatar"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Phiếu khám bệnh"
+                    android:textColor="#3F51B5" />
+
+                <RadioGroup
+                    android:id="@+id/radGroupGT"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radNam"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Nam" />
+
+                    <RadioButton
+                        android:id="@+id/radNu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Nữ" />
+                    <RadioButton
+                        android:id="@+id/radKhac"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Khác" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Họ và tên: "
+                android:textColor="#3F51B5" />
+
+            <EditText
+                android:id="@+id/edtHoTen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nhập họ tên..."
+                android:minHeight="48dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ngày sinh:"
+                android:textColor="#3F51B5" />
+
+            <EditText
+                android:id="@+id/edtNgaySinh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="dd/mm/yyyy"
+                android:minHeight="48dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Số điện thoại:"
+                android:textColor="#3F51B5" />
+
+            <EditText
+                android:id="@+id/edtSDT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nhập số điện thoại"
+                android:minHeight="48dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dịch vụ"
+                android:textColor="#3F51B5" />
+
+            <CheckBox
+                android:id="@+id/cbxKhamSK"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Khám sức khỏe - 200.000 VNĐ" />
+
+            <CheckBox
+                android:id="@+id/cbxXNMau"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Xét nghiệm máu - 350.000 VNĐ" />
+
+            <CheckBox
+                android:id="@+id/cbxChupXQ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chụp X-Quang - 1.000.000 VNĐ" />
+
+            <TextView
+                android:id="@+id/tvThanhTien"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4F68F8"
+                android:padding="10dp"
+                android:text="Thành tiền: "
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnXacNhan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="#198734"
+                android:text="Xác nhận" />
+
+            <TextView
+                android:id="@+id/tvKQ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kết quả"
+                android:textColor="#D30882" />
+            <Button
+                android:id="@+id/btnThoat"
+                android:text="Thoát ứng dụng"
+                android:backgroundTint="#A30000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
