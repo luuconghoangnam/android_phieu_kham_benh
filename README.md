@@ -1,8 +1,8 @@
-# App3 - Ứng Dụng Đăng Ký Khám Sức Khỏe
+# Ứng Dụng Đăng Ký Khám Sức Khỏe
 
 ## 📱 Mô tả
 
-App3 là một ứng dụng Android mô phỏng hệ thống đăng ký khám sức khỏe tại bệnh viện. Ứng dụng cho phép người dùng nhập thông tin cá nhân, chọn giới tính với avatar tương ứng, và đăng ký các dịch vụ y tế với tính năng tính phí tự động.
+Một ứng dụng Android mô phỏng hệ thống đăng ký khám sức khỏe tại bệnh viện. Ứng dụng cho phép người dùng nhập thông tin cá nhân, chọn giới tính với avatar tương ứng, và đăng ký các dịch vụ y tế với tính năng tính phí tự động.
 
 ## ✨ Tính năng chính
 
