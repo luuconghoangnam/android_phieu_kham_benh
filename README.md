@@ -29,6 +29,8 @@ Một ứng dụng Android mô phỏng hệ thống đăng ký khám sức khỏ
 
 ## 📱 Giao diện
 
+![Giao diện ứng dụng](ImagesReadme/PhieuKham.png)
+
 - **Thông tin cá nhân**: Họ tên, ngày sinh, số điện thoại
 - **Chọn giới tính**: Radio buttons với 3 lựa chọn
 - **Avatar động**: Thay đổi theo giới tính được chọn
@@ -76,9 +78,9 @@ Một ứng dụng Android mô phỏng hệ thống đăng ký khám sức khỏ
 
 ## 📁 Cấu trúc tài nguyên
 
-- **Drawable**: 
+- **Drawable**:
   - `male.png` - Avatar nam
-  - `female.png` - Avatar nữ  
+  - `female.png` - Avatar nữ
   - `other.png` - Avatar khác
 - **Layout**: `activity_main.xml`
 - **Values**: strings, colors, themes
